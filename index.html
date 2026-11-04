@@ -77,17 +77,17 @@
 
     <!-- Search Bar -->
     <div class="search-container">
-        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search products, speakers, DSPs, subwoofers..." onkeyup="searchProducts()">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search products, Moco, JBL, Motogear, Worldtech..." onkeyup="searchProducts()">
     </div>
 
-    <!-- Category Pills -->
+    <!-- Category Filter Pills -->
     <div class="categories-wrapper">
         <div class="categories">
             <span class="pill active" onclick="filterCategory('all')">All Products</span>
-            <span class="pill" onclick="filterCategory('DSP')">DSPs & Processors</span>
-            <span class="pill" onclick="filterCategory('Speakers')">Speakers</span>
-            <span class="pill" onclick="filterCategory('Subwoofer')">Subwoofers</span>
-            <span class="pill" onclick="filterCategory('Camera')">Cameras</span>
+            <span class="pill" onclick="filterCategory('Moco')">Moco</span>
+            <span class="pill" onclick="filterCategory('JBL')">JBL</span>
+            <span class="pill" onclick="filterCategory('Motogear')">Motogear</span>
+            <span class="pill" onclick="filterCategory('Worldtech')">Worldtech</span>
         </div>
     </div>
 
@@ -95,16 +95,16 @@
     <div class="container">
         <div class="grid" id="productGrid">
 
-            <!-- CARD 1 -->
-            <div class="card" data-category="DSP">
+            <!-- CARD 1: MOCO -->
+            <div class="card" data-category="Moco">
                 <div class="img-box">
                     <span class="badge-brand">MOCO</span>
-                    <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80" alt="Moco DSP Processor" class="product-img">
+                    <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80" alt="Moco Digital Signal Processor" class="product-img">
                 </div>
                 <div class="card-details">
                     <div>
                         <h3 class="product-title">Moco Digital Signal Processor (DSP)</h3>
-                        <p class="product-specs">High-precision acoustic tuning & cabin balance</p>
+                        <p class="product-specs">High-precision acoustic sound profile tuning & cabin balance</p>
                     </div>
                     <div class="action-row">
                         <a href="https://wa.me/919822271743?text=Hi,%20I%20am%20interested%20in%20Moco%20DSP" class="btn-inquire" target="_blank">Inquire on WhatsApp</a>
@@ -112,53 +112,53 @@
                 </div>
             </div>
 
-            <!-- CARD 2 -->
-            <div class="card" data-category="Speakers">
+            <!-- CARD 2: JBL -->
+            <div class="card" data-category="JBL">
                 <div class="img-box">
-                    <span class="badge-brand">AUDISON</span>
-                    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=600&q=80" alt="Audison Component Speakers" class="product-img">
+                    <span class="badge-brand">JBL</span>
+                    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=600&q=80" alt="JBL Component Speakers" class="product-img">
                 </div>
                 <div class="card-details">
                     <div>
-                        <h3 class="product-title">Audison Voce Component Speakers</h3>
-                        <p class="product-specs">High-frequency clear treble & high power output</p>
+                        <h3 class="product-title">JBL Coaxial & Component Speakers</h3>
+                        <p class="product-specs">High dynamic output, deep bass response & crisp highs</p>
                     </div>
                     <div class="action-row">
-                        <a href="https://wa.me/919822271743?text=Hi,%20I%20am%20interested%20in%20Audison%20Voce%20Speakers" class="btn-inquire" target="_blank">Inquire on WhatsApp</a>
+                        <a href="https://wa.me/919822271743?text=Hi,%20I%20am%20interested%20in%20JBL%20Speakers" class="btn-inquire" target="_blank">Inquire on WhatsApp</a>
                     </div>
                 </div>
             </div>
 
-            <!-- CARD 3 -->
-            <div class="card" data-category="Subwoofer">
+            <!-- CARD 3: MOTOGEAR -->
+            <div class="card" data-category="Motogear">
                 <div class="img-box">
-                    <span class="badge-brand">SUBWOOFER</span>
-                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80" alt="10 Inch Sub-Woofer" class="product-img">
+                    <span class="badge-brand">MOTOGEAR</span>
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80" alt="Motogear Active Subwoofer" class="product-img">
                 </div>
                 <div class="card-details">
                     <div>
-                        <h3 class="product-title">10" Enclosure Sub-Woofer System</h3>
-                        <p class="product-specs">Built-in active amplifier for deep cabin bass</p>
+                        <h3 class="product-title">Motogear Active Woofer System</h3>
+                        <p class="product-specs">High-wattage active amplifier subwoofer system</p>
                     </div>
                     <div class="action-row">
-                        <a href="https://wa.me/919822271743?text=Hi,%20I%20am%20interested%20in%2010-inch%20Sub-Woofer" class="btn-inquire" target="_blank">Inquire on WhatsApp</a>
+                        <a href="https://wa.me/919822271743?text=Hi,%20I%20am%20interested%20in%20Motogear%20Active%20Woofer" class="btn-inquire" target="_blank">Inquire on WhatsApp</a>
                     </div>
                 </div>
             </div>
 
-            <!-- CARD 4 -->
-            <div class="card" data-category="Camera">
+            <!-- CARD 4: WORLDTECH -->
+            <div class="card" data-category="Worldtech">
                 <div class="img-box">
-                    <span class="badge-brand">CAMERA</span>
-                    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80" alt="1080p AHD Rear Camera" class="product-img">
+                    <span class="badge-brand">WORLDTECH</span>
+                    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80" alt="Worldtech Door Speakers" class="product-img">
                 </div>
                 <div class="card-details">
                     <div>
-                        <h3 class="product-title">1080p AHD Rear Moving Line Camera</h3>
-                        <p class="product-specs">Enhanced night vision & dynamic parking trajectory</p>
+                        <h3 class="product-title">Worldtech 600W Door Speakers</h3>
+                        <p class="product-specs">Heavy-duty power handling for front & rear doors</p>
                     </div>
                     <div class="action-row">
-                        <a href="https://wa.me/919822271743?text=Hi,%20I%20am%20interested%20in%20Rear%20Moving%20Line%20Camera" class="btn-inquire" target="_blank">Inquire on WhatsApp</a>
+                        <a href="https://wa.me/919822271743?text=Hi,%20I%20am%20interested%20in%20Worldtech%20Door%20Speakers" class="btn-inquire" target="_blank">Inquire on WhatsApp</a>
                     </div>
                 </div>
             </div>
